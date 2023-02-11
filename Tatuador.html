@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tatuador</title>
+</head>  
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  var Tatuador = {
+    "Nombre": "Corey",
+    "Apellido": "Miller",
+    "Edad": 66,
+    "Fecha_nacimiento": "03-03-1957",
+    "Pais": "New York",
+    "Ciudad": "Los Angeles",
+    "Pasion": "Realismo",
+    "Diseñador": "Realismo, Japones, Lettering",
+    "Estudios": "High Voltage Tattoo",
+    "Preferencia": "Bobinas"
+  };
+  
+  var Nombre = Tatuador.Nombre;
+  var Apellido = Tatuador.Apellido;
+  var Edad = Tatuador.Edad;
+  var Fecha_nacimiento = Tatuador.Fecha_nacimiento;
+  var Pais = Tatuador.Pais;
+  var Ciudad = Tatuador.Ciudad;
+  var Pasion= Tatuador.Pasion;
+  var Diseñador= Tatuador.Diseñador;
+  var Estudios= Tatuador.Estudios;
+  var Preferencia = Tatuador.Preferencia;
+  
+  document.getElementById
+                        ("Nombre").innerHTML = Nombre;
+  document.getElementById
+                        ("Apellido").innerHTML = Apellido;
+  document.getElementById
+                        ("Edad").innerHTML = Edad;
+  document.getElementById
+                        ("Fecha_nacimiento").innerHTML = Fecha_nacimiento;
+  document.getElementById
+                        ("Pais").innerHTML = Pais;
+  document.getElementById
+                        ("Ciudad").innerHTML = Ciudad;
+  document.getElementById
+                        ("Pasion").innerHTML =  Pasion;
+  document.getElementById
+                        ("Diseñador").innerHTML = Diseñador;
+  document.getElementById
+                        ("Estudios").innerHTML = Estudios;
+  document.getElementById
+                        ("Preferencia").innerHTML = Preferencia;
+});
+</script>
+</head>
+<body>
+
+<h2>Bibliografia del Artista Corey Miller:</h2>
+<p>Nombre: <span id="Nombre"></span></p>
+<p>Apellido: <span id="Apellido"></span></p>
+<p>Edad: <span id="Edad"></span></p>
+<p>Fecha de Nacimiento: <span id="Fecha_nacimiento"></span></p>
+<p>Pais: <span id="Pais"></span></p>
+<p>Ciudad: <span id="Ciudad"></span></p>
+<p>Pasion: <span id="Pasion"></span></p>
+<p>Diseñador: <span id="Diseñador"></span></p>
+<p>Estudios: <span id="Estudios"></span></p>
+<p>Preferencia: <span id="Preferencia"></span></p>
+</body>
+</html>
